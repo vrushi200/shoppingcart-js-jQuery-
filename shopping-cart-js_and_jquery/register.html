@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dimos Pizza - Register</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-navbar" >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/logo.svg" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#products">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#footer">Contact</a>
+            </li>
+          </ul>
+         
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="form-container">
+      <h2>Create Account</h2>
+
+      <div class="input-group">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter your full name"
+        />
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="input-group">
+        <label for="email">Mobile No</label>
+        <input
+          type="number"
+          id="mobileno"
+          name="mobileno"
+          required
+          placeholder="Enter your mobile No"
+        />
+      </div>
+      <div class="input-group">
+        <label for="email">Address</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          required
+          placeholder="Enter your address"
+        />
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+          placeholder="Confirm your password"
+        />
+      </div>
+      <button type="submit" class="btn">Register</button>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+    <footer class="bg-dark text-light py-5" id="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Navigation Links -->
+          <div class="col-md-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-light">Home</a></li>
+              <li><a href="index.html#products" class="text-light">Menu</a></li>
+              <li>
+                <a href="index.html#about" class="text-light">About Us</a>
+              </li>
+              <li>
+                <a href="index.html#contact" class="text-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="col-md-3">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-phone"></i> +1 234 567 890</li>
+              <li><i class="fa fa-envelope"></i> contact@yourcompany.com</li>
+              <li>
+                <i class="fa fa-map-marker"></i> 123 Street, City, Country
+              </li>
+            </ul>
+          </div>
+
+          <!-- Google Map Embed -->
+          <div class="col-md-6">
+            <h5>Our Location</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1614863375167!2d144.9641040153577!3d-37.81820777975109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4420fd8e1f%3A0x5045675218ce6e0!2zMzcgU3RyZWV0LCBZb3JraXogY2VudHJhbCwgVmljdG9yaWE!5e0!3m2!1sen!2sin!4v1632870185309!5m2!1sen!2sin"
+              width="100%"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row mt-4 text-center">
+          <div class="col">
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="cart-localstorage.min.js"></script>
+  </body>
+</html>
